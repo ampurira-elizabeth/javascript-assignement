@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // numb1
+        for (var n=1; n<100; n++){
+            if  (n % 3==0 && n % 5==0)
+                console.log("fizzBuzz")
+            else if (n % 5==0)
+                console.log("Buzz")
+            else (n % 3==0)
+                console.log("Fizz") 
+          
+            }
+            // number2  
+            var sum =0
+        for (var i=0; i<1000; i++){
+            if (i%3==0 && i%5==0){
+                sum+=i;
+            }
+        } 
+        console.log(sum); 
+// numb 3
+         
+        for(var x=0;x<21; x++){
+            if(x%2==0){
+            console.log(x,  "is even")}
+            else{
+                console.log(x,  "is odd")
+            }        
+            
+        }
+        // numb 4
+    // function highest(num){
+    //     for (var m=0; m>5;m++){
+    //         if(m>5){
+    //             return m
+    //         }
+    //         else{
+    //             console.log(num[m])
+    //         }
+    //     } 
+    // }
+    // console.log(highest([-2, 4,-5, 6,0]))
+        // numb 5
+function largest(y,z){
+    if (y>z){
+        return y
+    }
+    else{
+        return z
+    }
+}
+console.log(largest(10,40))
+ 
+// numb 6
+function leapyear(year){
+    if(year%4 && year%100 && year%400){
+        return year + " is a leap year"
+    }
+    else{
+        return year +  " is not a leap year"
+    }
+}
+console.log(leapyear(2000))
+
+
+            
+        
+    </script>
+</body>
+</html>
