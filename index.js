@@ -1,31 +1,3 @@
-function numbers(){
-    for (var n=1; n<100; n++){
-        if  (n % 3==0 && n % 5==0)
-            console.log("fizzBuzz")
-        else if (n % 5==0)
-            console.log("Buzz")
-        else (n % 3==0)
-            console.log("Fizz") 
-        // else;
-        //     console.log(n)
-        } 
-}
-numbers();
-var sum =0
-for (var i=0; n<1000; n++){
-    if (i%3==0 && i%5==0){
-        sum+=i;
-    }
-} 
-console.log(sum);  
-
-
-
-
-
-
-
-
 // 1. Write a JavaScript program which iterates the integers from 1 to 100. But for
 // multiples of three print "Fizz" instead of the number and for the multiples of five print
 // "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
