@@ -18,6 +18,7 @@
                 console.log("Fizz") 
           
             }
+
             // number2  
             var sum =0
         for (var i=0; i<1000; i++){
@@ -26,6 +27,7 @@
             }
         } 
         console.log(sum); 
+        
 // numb 3
          
         for(var x=0;x<21; x++){
@@ -37,17 +39,15 @@
             
         }
         // numb 4
-    // function highest(num){
-    //     for (var m=0; m>5;m++){
-    //         if(m>5){
-    //             return m
-    //         }
-    //         else{
-    //             console.log(num[m])
-    //         }
-    //     } 
-    // }
-    // console.log(highest([-2, 4,-5, 6,0]))
+        const  num = [-2, 4,-5, 6,0]
+        let biggest_num=num[0]
+        for (var m=0; m<num.length;m++){
+            if(num[m]>biggest_num){
+                biggest_num=num[m]
+               
+            } }
+    console.log(biggest_num)
+
         // numb 5
 function largest(y,z){
     if (y>z){
