@@ -43,24 +43,23 @@ console.log(biggest_num)
 // numb 5
 function largest(y,z){
 if (y>z){
-return y
+console.log (y)
 }
 else{
-return z
+    return z
 }
 }
 console.log(largest(10,40))
 
-// numb 6
-function leapyear(year){
-if(year%4 && year%100 && year%400){
-return year + " is a leap year"
+// numb5
+for(i=2000; i<=2022;i++){
+    if((i%4==0 && i%100!==0) || (i%100==0 && i%400==0)){
+        console.log(i," is leap year");
+    }
+    else{
+        console.log(i,"is not leap year");
+    }
 }
-else{
-return year +  " is not a leap year"
-}
-}
-console.log(leapyear(2000))
 
 // 1. Write a JavaScript program which iterates the integers from 1 to 100. But for
 // multiples of three print "Fizz" instead of the number and for the multiples of five print
